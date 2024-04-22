@@ -29,10 +29,10 @@ function Navbar() {
               <Link className="nav-link text-light" to="/services">Services</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light" aria-current="page" to="/contact">Contact us</Link>
+              <Link className="nav-link text-light" aria-current="page" to="/store">Store</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">Store</a>
+              <Link className="nav-link text-light" to="/contact">Contact us</Link>
             </li>
           </ul>
         </div>

@@ -5,6 +5,7 @@ import Home from "../Pages/Home";
 import Contact from "../Pages/Contact"
 import Footer from "../Components/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Store from "../Pages/Store";
 function App() {
  
 
@@ -13,12 +14,13 @@ function App() {
       <BrowserRouter>
 
       <Navbar/>
-
+   
       <Routes>
       <Route path="/" element={<Home/>} />
-      {/* <Route to="/" element={} /> */}
+      
       <Route path="/contact" element={<Contact/>} />
-      {/* <Route to="/" element={} /> */}
+      <Route path="/store" element={<Store/>} />
+      
       </Routes >
       
       <Footer/>
