@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from "../Images/logo.png"
 import "../CSS/Navbar.css"
+import { Link } from 'react-router-dom';
 function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -11,10 +12,10 @@ function Navbar() {
   return (
     <nav className="navbar bg-dark navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <a className="navbar-brand text-light" href="#"><b>G-HOC</b></a>
-        <button 
-          className="navbar-toggler bg-light" 
-          type="button" 
+        <Link className="navbar-brand text-light" to="/"><b>G-HOC</b></Link>
+        <button
+          className="navbar-toggler bg-light"
+          type="button"
           onClick={toggleNavbar}  // Toggle function added here
         >
           <span className="navbar-toggler-icon"></span>
@@ -22,13 +23,13 @@ function Navbar() {
         <div className={`collapse navbar-collapse ${isOpen ? 'show' : ''}`} id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link text-light" aria-current="page" href="#">Home</a>
+              <Link className="nav-link text-light" aria-current="page" to="/">Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" href="#">Services</a>
+              <Link className="nav-link text-light" to="/services">Services</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-light" aria-current="page" href="#">Contact us</a>
+              <Link className="nav-link text-light" aria-current="page" to="/contact">Contact us</Link>
             </li>
             <li className="nav-item">
               <a className="nav-link text-light" href="#">Store</a>
@@ -38,9 +39,9 @@ function Navbar() {
       </div>
     </nav>
 
-    
 
-    
+
+
 
   );
 };
