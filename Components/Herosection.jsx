@@ -196,7 +196,7 @@ function Herosection() {
 
             <div class="subscribe">
     <div class="container sub">
-        <h1 class=" subtitle">Don’t miss out!</h1>
+        <h1 class=" subtitle ">Don’t miss out!</h1>
         <h6 class=" subpara">Subscribe to our newsletter for cool tips, articles, and offers.</h6>
         <input class="form-control inputsub" type="email" placeholder="Type your email..."/>
         <button class="btn btn-primary btnsub">Subscribe</button>

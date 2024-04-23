@@ -12,7 +12,7 @@ function Navbar() {
   return (
     <nav className="navbar bg-dark navbar-expand-lg navbar-light bg-light">
       <div className="container-fluid">
-        <Link className="navbar-brand text-light" to="/"><b>G-HOC</b></Link>
+        <Link className="navbar-brand text-light" to="/"><img className='logo' src="../Images/ghoclogo.png" alt="logo" /></Link>
         <button
           className="navbar-toggler bg-light"
           type="button"
