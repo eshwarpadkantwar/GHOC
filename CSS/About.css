@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+}
+
+
+.aboutimg{
+    width: 400px;
+    height: auto;
+    float: right;
+}
+
+
+
+@media (max-width: 567px) {
+    .about-container {
+      display: block;
+    }
+    .about-container .row {
+      display: block;
+    }
+    .about-container .col-md-6 {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+    .about-container .col-md-6.order-md-2 {
+      order: 1;
+    }
+  }
+  

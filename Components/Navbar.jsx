@@ -32,7 +32,10 @@ function Navbar() {
               <Link className="nav-link text-light" aria-current="page" to="/store">Store</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link text-light" to="/contact">Contact us</Link>
+              <Link className="nav-link text-light" to="/contact">Contact</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link text-light" to="/aboutus">About us</Link>
             </li>
           </ul>
         </div>
